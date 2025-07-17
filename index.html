@@ -255,31 +255,47 @@
       </div>
     </section>
     <!-- About Me -->
-<section id="about" class="py-20 bg-black text-white">
-  <div class="flex flex-col items-center text-center px-4">
-    <!-- Profile Image Centered -->
-    <img
-      src="azad.jpg"
-      alt="Azad Bhasme"
-      class="rounded-full border-4 border-cyan-400 shadow-xl w-48 h-48 object-cover mb-4 animate-pulse"
-      style="box-shadow: 0 0 25px #00ffff;"
-    />
+<!-- ABOUT SECTION -->
+<section id="about" class="py-20 bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col items-center text-center">
+    
+    <!-- Profile Photo -->
+    <div class="relative mb-6">
+      <img src="azad.jpg" alt="Azad Bhasme" class="w-52 h-52 object-cover rounded-full border-4 border-cyan-400 shadow-lg shadow-cyan-500/50 hover:scale-105 transition-transform duration-500" />
+    </div>
 
-    <!-- Name below Image -->
-    <h2 class="text-4xl font-semibold mb-4" style="font-family: 'Times New Roman', serif; text-shadow: 0 0 10px #00ffff;">
+    <!-- Name -->
+    <h2 class="text-3xl font-bold text-cyan-300 drop-shadow-glow" style="font-family: 'Times New Roman', serif;">
       Azad Bhasme
     </h2>
 
-    <!-- Short Description -->
-    <p class="max-w-3xl text-lg text-gray-300 leading-relaxed">
+    <!-- Description -->
+    <p class="mt-4 max-w-3xl text-lg leading-relaxed">
       I am a passionate and results-driven Data Science Intern with hands-on experience transforming raw data into actionable insights that drive strategic decision-making. Proficient in industry-standard tools like Python, SQL, Excel, R Programming, and Power BI, I specialize in uncovering patterns, identifying trends, and visualizing complex datasets with clarity and precision.
     </p>
 
-    <p class="max-w-3xl text-lg text-gray-300 leading-relaxed mt-4">
-      As a member of the Google Developer Program, I stay at the forefront of technological advancements and continuously sharpen my skills through real-world projects and community contributions. I’ve successfully led and contributed to projects that showcase my commitment to innovation and excellence in the field of data science.
+    <p class="mt-4 max-w-3xl text-lg leading-relaxed">
+      As a member of the Google Developer Program, I stay at the forefront of technological advancements and continuously sharpen my skills through real-world projects and community contributions. I’ve successfully led and contributed to projects that leverage machine learning, deep learning, and AI-driven solutions.
     </p>
+
+    <!-- Buttons -->
+    <div class="mt-6 flex space-x-4">
+      <a href="Azad_Bhasme_Resume.pdf" download class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded shadow transition duration-300">
+        Download Resume
+      </a>
+      <a href="https://www.linkedin.com/in/azadbhasme/" target="_blank" class="bg-transparent border border-blue-500 hover:bg-blue-500 hover:text-white text-blue-400 px-6 py-2 rounded transition duration-300">
+        <i class="fab fa-linkedin mr-2"></i>Connect on LinkedIn
+      </a>
+    </div>
   </div>
 </section>
+
+<!-- Custom Glow -->
+<style>
+  .drop-shadow-glow {
+    text-shadow: 0 0 6px #00fff7, 0 0 12px #00fff7, 0 0 18px #00fff7;
+  }
+</style>
 
     <!-- Skills -->
     <section class="max-w-5xl mx-auto" data-aos="fade-up" data-aos-delay="150" id="skills">
