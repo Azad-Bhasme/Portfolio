@@ -424,14 +424,15 @@
 
     <!-- FireWatch AI -->
     <div class="card rounded-lg p-6 flex flex-col shadow-lg hover:shadow-2xl transition cursor-pointer">
-     <lottie-player
-    src="https://assets3.lottiefiles.com/packages/lf20_qxnf072s.json" 
+    <lottie-player
+    src="https://assets6.lottiefiles.com/private_files/lf30_Mj6Lni.json"
     background="transparent"
     speed="1"
-    style="width:100%; height:200px;"
-    loop autoplay
-    aria-label="Fire detection animation">
-</lottie-player>
+    style="width: 100%; height: 200px"
+    loop
+    autoplay
+    aria-label="Fire detection animation"
+  ></lottie-player>
       <h3 class="text-xl font-semibold text-blue-600 mt-4 mb-2">🔥 FireWatch AI</h3>
       <p class="text-gray-700 dark:text-gray-300 text-sm mb-3">
         Real-time fire detection system using YOLOv8 and OpenCV to detect and annotate fire in live video feeds.
@@ -496,16 +497,15 @@
 
     <!-- Cancer Prediction Web App -->
     <div class="card rounded-lg p-6 flex flex-col shadow-lg hover:shadow-2xl transition cursor-pointer">
-        <lottie-player
-        
-          src="https://assets4.lottiefiles.com/packages/lf20_6yRO5w.json"
-            background="transparent"
-           speed="1"
-           style="width:100%; height:200px;"
-          loop autoplay
-        aria-label="Medical diagnosis animation">
-     </lottie-player>
-
+      <lottie-player
+    src="https://assets5.lottiefiles.com/packages/lf20_yguxox6i.json"
+    background="transparent"
+    speed="1"
+    style="width: 100%; height: 200px"
+    loop
+    autoplay
+    aria-label="Medical diagnosis animation"
+  ></lottie-player>
       <h3 class="text-xl font-semibold text-blue-600 mt-4 mb-2">🚀 Cancer Prediction Web App</h3>
       <p class="text-gray-700 dark:text-gray-300 text-sm mb-3">
         A Streamlit tool using a Random Forest classifier to predict tumor type, with an intuitive UI for medical decision support.
@@ -589,7 +589,7 @@
             href="https://www.kaggle.com/azadbhsame"
             rel="noopener"
             target="_blank"
-            ><div class="kaggle-k" style="font-size: 1.5rem; color: #20BEFF; font-weight: 900; user-select:none;">K</div>
+            ><div class="kaggle" style="font-size: 1.5rem; color: #20BEFF; font-weight: 900; user-select:none;">K</div>
           ></a>
           <a
             aria-label="Instagram"
@@ -601,48 +601,56 @@
           ></a>
         </div>
         <div class="w-full md:w-2/3 relative">
-          <form
-            class="space-y-4 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md"
-            id="contactForm"
-            novalidate
-          >
-            <div>
-              <label class="block font-semibold mb-1" for="name">Name</label>
-              <input
-                class="w-full rounded-md border border-gray-300 dark:border-gray-600 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                id="name"
-                name="name"
-                required
-                type="text"
-              />
-            </div>
-            <div>
-              <label class="block font-semibold mb-1" for="email">Email</label>
-              <input
-                class="w-full rounded-md border border-gray-300 dark:border-gray-600 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                id="email"
-                name="email"
-                required
-                type="email"
-              />
-            </div>
-            <div>
-              <label class="block font-semibold mb-1" for="message">Message</label>
-              <textarea
-                class="w-full rounded-md border border-gray-300 dark:border-gray-600 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                id="message"
-                name="message"
-                required
-                rows="4"
-              ></textarea>
-            </div>
-            <button
-              class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-md shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500"
-              type="submit"
-            >
-              Send Message
-            </button>
-          </form>
+         <form
+  action="https://formspree.io/f/xrblbyrj"
+  method="POST"
+  class="space-y-4 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md"
+  id="contactForm"
+>
+  <div>
+    <label class="block font-semibold mb-1" for="name">Name</label>
+    <input
+      class="w-full rounded-md border border-gray-300 dark:border-gray-600 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      id="name"
+      name="name"
+      required
+      type="text"
+    />
+  </div>
+
+  <div>
+    <label class="block font-semibold mb-1" for="email">Email</label>
+    <input
+      class="w-full rounded-md border border-gray-300 dark:border-gray-600 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      id="email"
+      name="email"
+      required
+      type="email"
+    />
+  </div>
+
+  <div>
+    <label class="block font-semibold mb-1" for="message">Message</label>
+    <textarea
+      class="w-full rounded-md border border-gray-300 dark:border-gray-600 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      id="message"
+      name="message"
+      required
+      rows="4"
+    ></textarea>
+  </div>
+
+  <!-- Optional honeypot field to avoid spam -->
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <button
+    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-md shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500"
+    type="submit"
+  >
+    Send Message
+  </button>
+</form>
+
           <svg class="email-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" role="img" aria-label="Email icon">
             <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z" fill="#3b82f6"/>
           </svg>
