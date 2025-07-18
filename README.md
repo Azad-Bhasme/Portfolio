@@ -1,4 +1,4 @@
-#🚀 #Portfolio
+🚀Portfolio
 
 Explore a curated selection of my impactful projects in AI, Python development, and Data Science. Each project is a demonstration of my ability to turn complex data into meaningful insights or deploy intelligent systems that solve real-world problems.
 
