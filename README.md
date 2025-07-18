@@ -1,9 +1,10 @@
-**🚀** **Portfolio**
 
-Explore a curated selection of my impactful projects in AI, Python development, and Data Science. Each project is a demonstration of my ability to turn complex data into meaningful insights or deploy intelligent systems that solve real-world problems.
+# 🚀 **Portfolio**
 
-🔍 From real-time fire detection systems to intelligent document processing, movie recommendation engines, and advanced medical diagnostic tools, my portfolio reflects a deep understanding of machine learning, data visualization, and practical application of modern technologies.
+Explore a curated selection of my impactful projects in **AI**, **Python development**, and **Data Science**. Each project demonstrates my ability to turn complex data into actionable insights or build intelligent systems that solve real-world problems.
 
-🌐 Visit my full portfolio: https://azad-bhasme.github.io/Portfolio/
+🔍 From real-time **fire detection** systems to intelligent **document processing**, **movie recommendation engines**, and advanced **medical diagnostic tools**, my portfolio reflects a strong foundation in machine learning, data engineering, and modern development tools.
 
-📂 Source code available on: GitHub – Azad-Bhasme
+🌐 **Live Portfolio:** https://azad-bhasme.github.io/Portfolio/
+💻 **GitHub Profile:** [github.com/Azad-Bhasme](https://github.com/Azad-Bhasme)
+
