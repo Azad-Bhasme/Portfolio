@@ -1,6 +1,7 @@
 <html lang="en" class="dark">
 
-<html class="scroll-smooth" lang="en">
+<html class="scroll-smooth dark" lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -206,13 +207,6 @@
   <canvas id="smallPieChartContainer" aria-label="Animated small pie chart"></canvas>
 
   <!-- Dark/Light Toggle -->
-  <button
-  aria-label="Toggle Dark/Light Mode"
-  class="fixed top-4 right-4 z-50 bg-gray-200 dark:bg-gray-700 p-2 rounded-full shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition focus:outline-none focus:ring-2 focus:ring-blue-500"
-  id="theme-toggle"
->
-  <i class="fas fa-moon text-gray-800 dark:text-gray-200" id="theme-icon"></i>
-</button>
 
     <!-- Hero Section -->
     <section
@@ -675,47 +669,7 @@
   </footer>
   <script>
     // Dark/Light Mode Toggle
-    const themeToggleBtn = document.getElementById("theme-toggle");
-    const themeIcon = document.getElementById("theme-icon");
-    const root = document.documentElement;
-
-    function setTheme(theme) {
-      if (theme === "dark") {
-        document.documentElement.classList.add("dark");
-        localStorage.setItem("theme", "dark");
-        themeIcon.classList.remove("fa-moon");
-        themeIcon.classList.add("fa-sun");
-      } else {
-        document.documentElement.classList.remove("dark");
-        localStorage.setItem("theme", "light");
-        themeIcon.classList.remove("fa-sun");
-        themeIcon.classList.add("fa-moon");
-      }
-    }
-
-    themeToggleBtn.addEventListener("click", () => {
-      if (document.documentElement.classList.contains("dark")) {
-        setTheme("light");
-      } else {
-        setTheme("dark");
-      }
-    });
-
-    // Initialize theme on page load
-    (function () {
-      const savedTheme = localStorage.getItem("theme");
-      if (savedTheme) {
-        setTheme(savedTheme);
-      } else {
-        // Default to system preference
-        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-          setTheme("dark");
-        } else {
-          setTheme("light");
-        }
-      }
-    })();
-
+  
     // Initialize AOS animations
     AOS.init({
       once: true,
